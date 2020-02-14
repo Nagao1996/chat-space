@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   color: white;
+
     
   &__box {
     display: flex;
@@ -16,6 +17,19 @@
     width: 100%;
     font-weight: bold;
       
+    &__members {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      ul {
+        display: flex;
+        margin-right: 8px;
+      }
+        li {
+          margin-right: 5px;
+        }
+    }
+
     .side-header__box__menu {
       display: flex;
       li {
@@ -37,6 +51,10 @@
 .group {
   margin-bottom: 40px;
   text-decoration: none;
+
+  a {
+    text-decoration: none;
+  }
 
   &__name {
     font-size: 15px;
