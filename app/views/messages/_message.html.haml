@@ -1,4 +1,4 @@
-.message
+.message{ "data-message-id": "#{message.id}"}
   .message-list__chat-box
     .message-list__chat-box__user-box
       .message-list__chat-box__user-box__user-name
@@ -10,3 +10,4 @@
         %p.message-list__chat-box__chat-message__content
           = message.content
       = image_tag message.image.url, class: 'message-list__chat-box__chat-message__image' if message.image.present?
+
