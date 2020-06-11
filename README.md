@@ -23,10 +23,12 @@ http://18.182.128.102
 0.requirement
 - Rails "5.0.7.2"
 - Ruby "2.5.1"
+
 1.markup
 - スタイル追加
 - Message モデル, messages テーブル追加
 - /messages にアクセスできる
+
 2.messages
 - メッセージ投稿
 - Messageモデルにバリデーション設定
@@ -34,22 +36,28 @@ http://18.182.128.102
     - bundle exec rails g rspec:install
     - bundle exec rspec
 - locale設定によるエラーメッセージの日本語化
+
 3.devise
 - Devise, User モデル導入
     - bundle exec rails g devise:install
 - RspecにDevise用マクロ追加
+
 4.group
 - Group, GroupUser モデル追加
 - チャットグループの追加・更新
 - side_menuの共通化
+
 5.incremental_search
 - jQuery導入
 - チャットグループ設定時にインクリメンタルサーチ
+
 6.async_messages
 - メッセージ投稿の非同期化
+
 7.image_upload
 - 画像投稿
     - carrierwave導入
+
 8.auto_reload
 - 自動再読み込み
 
